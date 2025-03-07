@@ -1,0 +1,30 @@
+    /* Basic styling for board and UI elements */
+    #board {
+        width: 400px;
+        margin: 20px auto;
+      }
+      #status, #timers, #theme-selector, #mode-selector {
+        text-align: center;
+        margin-top: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      #controls {
+        text-align: center;
+        margin-top: 10px;
+      }
+      #move-history {
+        width: 400px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background: #fff;
+        max-height: 150px;
+        overflow-y: auto;
+      }
+      select {
+        font-size: 16px;
+        padding: 4px;
+      }
